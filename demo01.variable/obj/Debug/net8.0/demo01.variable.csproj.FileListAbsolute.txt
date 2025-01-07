@@ -1,0 +1,14 @@
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\demo01.variable.exe
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\demo01.variable.deps.json
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\demo01.variable.runtimeconfig.json
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\demo01.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\demo01.variable.pdb
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.GeneratedMSBuildEditorConfig.editorconfig
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.AssemblyInfoInputs.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.AssemblyInfo.cs
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.csproj.CoreCompileInputs.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\refint\demo01.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.pdb
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\demo01.variable.genruntimeconfig.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\ref\demo01.variable.dll

@@ -1,0 +1,14 @@
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\OldPhonePad.variable.exe
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\OldPhonePad.variable.deps.json
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\OldPhonePad.variable.runtimeconfig.json
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\OldPhonePad.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\bin\Debug\net8.0\OldPhonePad.variable.pdb
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.GeneratedMSBuildEditorConfig.editorconfig
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.AssemblyInfoInputs.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.AssemblyInfo.cs
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.csproj.CoreCompileInputs.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\refint\OldPhonePad.variable.dll
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.pdb
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\OldPhonePad.variable.genruntimeconfig.cache
+H:\GIT\IRON_SOFTWARE\LearingCSharp\demo01.variable\demo01.variable\obj\Debug\net8.0\ref\OldPhonePad.variable.dll
