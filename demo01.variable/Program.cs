@@ -7,71 +7,71 @@ namespace demo01.variable
         private static void Main(string[] args)
         {
 
-            //string output = OldPhonePad("33#");
-            //string output = OldPhonePad("227*#");
-            //string output = OldPhonePad("4433555 555666#");
-            string output = OldPhonePad("8 88777444666*664#");
-            Console.WriteLine(output);
+            string output1 = OldPhonePad("33#");
+            string output2 = OldPhonePad("227*#");
+            string output3 = OldPhonePad("4433555 555666#");
+            string output4 = OldPhonePad("8 88777444666*664#");
+            Console.WriteLine(output1);
+            Console.WriteLine(output2);
+            Console.WriteLine(output3);
+            Console.WriteLine(output4);
+
         }
 
         private static String OldPhonePad(string input)
         {
+
             string word = string.Empty;
-            int count = 0;
+            int countIndex = 0;
             char preLetter = '\0';
 
             for (int i = 0; i < input.Length; i++)
             {
                 char letter = input[i];
 
+                //remove previous char
                 if (letter == '*')
                 {
                     preLetter = '\0';
-                    count = 0;
+                    countIndex = 0;
                     continue;
                 }
 
-                if (letter == ' ')
-                {
-                    word += GetCharactor(int.Parse(preLetter.ToString()), count);
-                    preLetter = '\0';
-                    count = 0;
-                    continue;
-                }
-
+                //display wording
                 if (preLetter == '\0' && letter == '#')
                     return word;
 
                 if (preLetter == '\0')
                     preLetter = letter;
                 else if (preLetter == letter)
-                    count++;
+                    countIndex++;
                 else
                 {
                     int keypadNumber;
-                    bool success = int.TryParse(preLetter.ToString(), out keypadNumber);
-                    if (success)
+                    if (int.TryParse(preLetter.ToString(), out keypadNumber))
                     {
-
                         if (keypadNumber == 7 || keypadNumber == 9)
-                        {
-                            count = count % 4;
-                        }
+                            countIndex = countIndex % 4;
                         else
-                            count = count % 3;
+                            countIndex = countIndex % 3;
 
-                        word += GetCharactor(keypadNumber, count);
+                        word += GetCharactor(keypadNumber, countIndex);
+                        countIndex = 0;
 
-                        if (letter == '#')
+                        if (letter == ' ')
+                        {
+                            preLetter = '\0';
+                            continue;
+                        }
+                        else if (letter == '#')
                             return word;
-
-                        count = 0;
-                        preLetter = letter;
                     }
                     else
                     {
-                        Console.WriteLine("การแปลงไม่สำเร็จ");
+                        word += ' ';
                     }
+
+                    preLetter = letter;
                 }
             }
 
