@@ -7,10 +7,12 @@ namespace demo01.variable
         private static void Main(string[] args)
         {
 
+            string output0 = OldPhonePad("  #");
             string output1 = OldPhonePad("33#");
             string output2 = OldPhonePad("227*#");
             string output3 = OldPhonePad("4433555 555666#");
             string output4 = OldPhonePad("8 88777444666*664#");
+            Console.WriteLine(output0);
             Console.WriteLine(output1);
             Console.WriteLine(output2);
             Console.WriteLine(output3);
@@ -63,13 +65,15 @@ namespace demo01.variable
                             preLetter = '\0';
                             continue;
                         }
-                        else if (letter == '#')
-                            return word;
+                        
                     }
                     else
                     {
                         word += ' ';
                     }
+
+                    if (letter == '#')
+                        return word;
 
                     preLetter = letter;
                 }
