@@ -7,7 +7,7 @@ namespace demo01.variable
         private static void Main(string[] args)
         {
 
-            string output0 = OldPhonePad("  #");
+            string output0 = OldPhonePad("   77799 779999 99*#");
             string output1 = OldPhonePad("33#");
             string output2 = OldPhonePad("227*#");
             string output3 = OldPhonePad("4433555 555666#");
@@ -20,7 +20,7 @@ namespace demo01.variable
 
         }
 
-        private static String OldPhonePad(string input)
+        static String OldPhonePad(string input)
         {
 
             string word = string.Empty;
@@ -65,11 +65,11 @@ namespace demo01.variable
                             preLetter = '\0';
                             continue;
                         }
-                        
                     }
                     else
                     {
                         word += ' ';
+                        countIndex = 0;
                     }
 
                     if (letter == '#')
@@ -79,7 +79,7 @@ namespace demo01.variable
                 }
             }
 
-            return "ไม่พบข้อมูล";
+            return "";
         }
 
         private static char GetCharactor(int keypadNumber, int index)
